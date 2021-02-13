@@ -55,7 +55,7 @@ A façade provides a unified interface to a set of interfaces in a subsystem. It
 This design pattern is basically an object-oriented state machine that allows an object to change its behavior when its internal state changes. The object will appear to change its class. This repository has the state changes in player attributes in terms of attack, defense and agility.
 
 ### Output of States
-![Builder1](https://github.com/FathimaShafana/SAD/blob/main/DesignPatternsLab/HW3_Screenshots/State Output.PNG?raw=true)
+![Builder1](https://github.com/FathimaShafana/SAD/blob/main/DesignPatternsLab/HW3_Screenshots/State%20Output.PNG?raw=true)
 
 # 6.	OBSERVER
 The observer pattern is widely used when a specific group is interested on a change and they are notified automatically through this. A one-to-many relation is introduced when the observed object changes its internal state and all of its observers are automatically informed about this change of state. Here, the core (or common or engine) components are encapsulated in a Subject abstraction, and the variable (or optional or user interface) components are encapsulated in an Observer hierarchy. This repository uses the list of observers and the topic to illustrate Observer design pattern. This depicts how the registered observers are notified of any updates in a topic. 
