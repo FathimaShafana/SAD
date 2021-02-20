@@ -19,13 +19,13 @@ If you have successfully implemented all the files as here, you could see them a
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginError.PNG?raw=true)
 
 #### Error registering
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.jpg?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.JPG?raw=true)
 
 #### When a required field is missing
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MandateField.PNG?raw=true)
 
-#### USername already taken
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.PNG?raw=true)
+#### Username already taken
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.jpg?raw=true)
 
 ### JOIN TABLE
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/JoinTable.PNG?raw=true)
