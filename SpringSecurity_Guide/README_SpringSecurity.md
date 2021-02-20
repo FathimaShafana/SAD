@@ -7,25 +7,25 @@ BCryptPasswordEncoder is used to encode the password so that it is not directly 
 If you have successfully implemented all the files as here, you could see them as follows:
 
 ### Register
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/RegisterPortal.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/RegisterPortal.PNG?raw=true)
 
 ### Login
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginPortal.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginPortal.PNG?raw=true)
 
 ### Successful Login
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/Successful%20Login.PNG?raw=true)
 
 ### Error Messages
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginError.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginError.PNG?raw=true)
 
 #### Error registering
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.jpg?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.JPG?raw=true)
 
 #### When a required field is missing
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MandateField.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MandateField.PNG?raw=true)
 
 #### USername already taken
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.PNG?raw=true)
 
 ### JOIN TABLE
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/JoinTable.PNG?raw=true)
