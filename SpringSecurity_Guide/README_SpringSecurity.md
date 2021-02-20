@@ -7,9 +7,22 @@ BCryptPasswordEncoder is used to encode the password so that it is not directly 
 If you have successfully implemented all the files as here, you could see them as follows:
 
 ### Register
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.jpg?raw=true)
 
 ### Login
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginPortal.png?raw=true)
 
 ### Successful Login
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/Successful%20Login.PNG?raw=true)
 
 ### Error Messages
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginError.png?raw=true)
+
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.jpg?raw=true)
+
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MandateField.png?raw=true)
+
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.png?raw=true)
+
+### JOIN TABLE
+!(https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/JoinTable.png?raw=true)
