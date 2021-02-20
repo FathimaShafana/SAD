@@ -19,7 +19,7 @@ If you have successfully implemented all the files as here, you could see them a
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/LoginError.PNG?raw=true)
 
 #### Error registering
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/ErrorRegister.jpg?raw=true)
 
 #### When a required field is missing
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MandateField.PNG?raw=true)
