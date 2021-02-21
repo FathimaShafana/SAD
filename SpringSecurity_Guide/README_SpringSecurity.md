@@ -28,7 +28,7 @@ If you have successfully implemented all the files as here, you could see them a
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/userTaken.jpg?raw=true)
 
 #### Email confirmation to registered user
-![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MailSuccess.png?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/MailSuccess.PNG?raw=true)
 
 ### JOIN TABLE
 ![](https://github.com/FathimaShafana/SAD/blob/main/SpringSecurity_Guide/SpringSecuritySnaps/JoinTable.PNG?raw=true)
