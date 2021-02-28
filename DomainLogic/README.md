@@ -20,13 +20,13 @@ Then after a specified period of time, the revenue is calculated according to th
 The sample interfaces are as follows:
 
 ### Add Contract Portal
-[](!https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/AddContract.JPG?raw=true)
-[](!https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/typeVideoEdit.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/AddContract.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/typeVideoEdit.JPG?raw=true)
 
 ### Check Revenue Recognition
-[](!https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/RevenueID3.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/RevenueID3.JPG?raw=true)
 
 ### Various Revenue Recognized based on date and type
-[](!https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/ID3.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/ID3.JPG?raw=true)
 
-[](!https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/showRR2.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/DomainLogic/Screenshots/showRR2.JPG?raw=true)
