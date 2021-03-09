@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<a href="/admin"><h1>Admin Page</h1></a>
+    
+<a href="/logout">Logout</a>
 </body>
 </html>
