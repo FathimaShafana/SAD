@@ -51,5 +51,36 @@
 		<Input type="submit" name="submit" value="REGISTER">
 	</td>
 	</form:form>
+	
+	<form action="/employee/${user.emp.id}/delete" method="GET">
+                            <input type="submit" value="Delete">
+        </form>
+	
+	<table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Level</th>
+                <th>Birthday</th>
+                <th>Base Salary</th>
+                  <th>Addresses</th>
+		    <th>Username</th>
+                <th>Email</th>
+             </tr>
+        
+        
+        <tr>
+            <c:forEach items="${users}" var="user">
+                <tr>
+                    <td><c:out value="${user.employee.id}"/></td>
+                    <td><c:out value="${user.username}"/></td>
+                    <td><c:out value="${employee.level}"/></td>
+                    <td><c:out value="${user.emp.birthday}"/></td>
+                    <td><c:out value="${user.emp.salary}"/></td>
+                    <td><c:out value="${user.employee.address}"/></td>
+		<td><c:out value="${user.username}"/></td>
+                    <td><c:out value="${user.email}"/></td>
+		    
+		    </table>                              
 </body>
 </html>
