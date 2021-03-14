@@ -23,6 +23,7 @@ a. Before starting the containerization process, create a jar file that can be c
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/goal.JPG?raw=true)
 
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/JarFile.JPG?raw=true)
+
 b. Install Docker (I have used Docker Desktop for Windows) (Download from : https://hub.docker.com/editions/community/docker-ce-desktop-windows/)
 
 c. Check if it's running with the hello-world image
@@ -53,7 +54,7 @@ The pushed image would be available at <i> <a href= "https://hub.docker.com/"> d
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/dockerhub.JPG?raw=true)
 
 i. Using the start command you are now able to run the stopped containers.
-![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/runstart.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/runStart.JPG?raw=true)
 
 j.Since the image is pushed to the repository, even if it's removed from the registry makes the app to still run. The experiment is as follows: 
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/rmDocker.JPG?raw=true)
