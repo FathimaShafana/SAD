@@ -75,11 +75,13 @@ At this point, make sure your windows has enabled the virtualization.
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/startmikube.JPG?raw=true)
 
 d. Verify that ypur Minikbe cluster is working by,
+
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/statuskube.JPG?raw=true)
 
 e. Create your YAML file within a folder named kube in your application directory. Deployment file can be found as "note.yaml" file in kube folder which we create ourselves.
 
 f. Create your pods by submitting all the YAML files to the kbe directory to Kubernetes by applying the resource definition. You can also get the services.
+
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/podscreate.JPG?raw=true)
 
 g. Launching app will open it automatically in default browser.
