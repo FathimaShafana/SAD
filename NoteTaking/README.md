@@ -29,7 +29,7 @@ b. Install Docker (I have used Docker Desktop for Windows) (Download from : http
 c. Check if it's running with the hello-world image
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/helloworldDocker.JPG?raw=true)
 
-d. Create a docker file in the root of your app.
+d. Create a docker file in the root of your app. (DockerFile in the repository)
 
 e. Build your docker
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/BuildDocker.JPG?raw=true)
@@ -65,11 +65,12 @@ j.Since the image is pushed to the repository, even if it's removed from the reg
 a. Install kubectl at first to work with kubernetes. This is the primary kubernetes CLI.
 ![image](https://user-images.githubusercontent.com/77454499/111066325-7711d780-84e4-11eb-9ebb-b2a6f4a9a50a.png)
 
-b. Once the kubectl is installed, install <b> Minikube </b> For windows, this can be installed via Windows Package Manager or Chocolatey Package Manager or Windows Installer. (See Documentation <a href = "https://minikube.sigs.k8s.io/docs/start/> here </a>) 
+b. Once the kubectl is installed, install <b> Minikube </b> For windows, this can be installed via Windows Package Manager or Chocolatey Package Manager or Windows Installer. <a href = "https://minikube.sigs.k8s.io/docs/start/"> (See Documentation here </a>) 
   
-c. Create a cluster using the command <i> minikube start -- driver =virtualbox. 
-Windows support 03 of the configurations for drivers such as Hyper-V, Virtualbox and Docker. I have used virualbox here.  
-<a href = "https://minikube.sigs.k8s.io/docs/drivers/">Find more on Drivers</a>
+c. Create a cluster using the command <i> minikube start -- driver =virtualbox. </i>
+Windows support 03 of the configurations for drivers such as Hyper-V, Virtualbox and Docker. I have used virtualbox here.  
+<a href = "https://minikube.sigs.k8s.io/docs/drivers/"> Find more on Drivers</a>
+
 At this point, make sure your windows has enabled the virtualization. 
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/startmikube.JPG?raw=true)
 
@@ -85,3 +86,5 @@ g. Launching app will open it automatically in default browser.
 ![image](https://user-images.githubusercontent.com/77454499/111066892-6151e180-84e7-11eb-9bbc-58572eaef714.png)
 
 ![](https://github.com/FathimaShafana/SAD/blob/main/NoteTaking/Screenshots_04/final.JPG?raw=true)
+
+And that's it. This is how you make a simple Kubernetes Application.
