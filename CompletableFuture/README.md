@@ -2,7 +2,8 @@
 
 This repository is used to write and explore asynchronous, non-blocking and multi-threaded code using CompletableFuture, which was introduced in Java 8. The CompletableFuture implements Future interface, it can combine multiple asynchronous computations, handle possible errors and offers much more capabilities. 
 The Asynchronous method is implemented using a CarService layer.
-Important terminologies:
+
+### Important terminologies:
   1.setCorePoolSize - set the number of threads
   2.setMaxPoolSize - allow the pool to accommodate an this "<i>specific</i>" number of concurrent tasks
   3.setQueueCapacity - number of items your threadPool will accept before rejecting them
@@ -11,6 +12,8 @@ Important terminologies:
 
 ### Output when the thread size is set to two and three files are uploaded:
 ![](https://github.com/FathimaShafana/SAD/blob/main/CompletableFuture/CompletableSnaps/TwoThread.JPG?raw=true)
+![image](https://user-images.githubusercontent.com/77454499/111898675-957c5380-8a4d-11eb-853c-8ada0c51de85.png)
+
 The two threads accept the job simulataneously and third job needs to wait until the jobs are completed.
 
 ### Output when the thread size is set to three and three files are uploaded: 
@@ -29,3 +32,4 @@ There are three threads and they run simultaneously. Timestamp of the three jobs
 ### When you have only one job
 No matter the number of your threads, when you submit a single job and run it, it runs as a single thread.
 ![](https://github.com/FathimaShafana/SAD/blob/main/CompletableFuture/CompletableSnaps/OneThread.JPG?raw=true)
+![image](https://user-images.githubusercontent.com/77454499/111898729-cbb9d300-8a4d-11eb-8e4e-29a61dc28a2e.png)
