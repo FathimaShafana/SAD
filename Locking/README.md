@@ -6,7 +6,7 @@ Locking is used to manage concurrency whenever there are multiple concurrent use
 
 2. Pessimistic Locking is where the resources are locked by either ReadLock or WriteLock. A read lock locks out resources and allows the other transactions to read but not perform any write
 operations. Whereas, A write lock does not allow other transcations to either write or read. Pessimistic Locking is done by @Lock in this example.
-![](https://github.com/FathimaShafana/SAD/blob/main/Locking/LockingSnaps/PL1.JPG?raw=true)
+![](https://github.com/FathimaShafana/SAD/blob/main/Locking/LockingSnaps/PL2.JPG?raw=true)
 
 Some instances of making locks precedence are here:
 ### Write Locks takes precedence
