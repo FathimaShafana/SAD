@@ -8,3 +8,4 @@ This repository is created to demonstrate basic concepts in Spring Boot. I have 
 4. Object Relational Mapping (Hibernate)
 5. Microservices + Kubernetes
 6. Multi-Threading with Springboot
+7. Optimistic and Pessimistic Locking
