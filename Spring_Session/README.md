@@ -26,7 +26,7 @@ Sessions are stored in h2 database as follows with the attribute_name MY_MESSAGE
 Create a simple application as in this repository
 Include the following dependencies in pom.xml
     <dependency>
-			<groupId>org.springframework.session</groupId>
+			'<groupId>'org.springframework.session</groupId>
 			<artifactId>spring-session-data-redis</artifactId>
 		</dependency>
     <dependency>
