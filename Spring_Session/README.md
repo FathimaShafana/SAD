@@ -6,13 +6,10 @@ Two approaches are demonstrated here.
 2. Using Spring Session Redis : Provides SessionRepository and ReactiveSessionRepository implementation backed by Redis and configuration support.
 
 ### Approach 01 : Using Spring Session JDBC
-Create a simple application as in this repository
-Include the following dependency in pom.xml
-    <dependency>
-		<groupId>org.springframework.session</groupId>
-			<artifactId>spring-session-jdbc</artifactId>
-		</dependency>
-Also specify <i> spring.session.store-type=jdbc </i> in application.properties
+1. Create a simple application as in this repository
+2. Include the following dependency in pom.xml
+![image](https://user-images.githubusercontent.com/77454499/115684644-28721b80-a375-11eb-939a-7ded5314db87.png)
+3. Also specify <i> spring.session.store-type=jdbc </i> in application.properties
 
 ### Testing
 Use the credentials Username: Admin and Password: password
@@ -23,20 +20,14 @@ Sessions are stored in h2 database as follows with the attribute_name MY_MESSAGE
 ![](https://github.com/FathimaShafana/SAD/blob/main/Spring_Session/session_SC/spring_session.JPG?raw=true)
 
 ### Approach 02 : Using Spring Session Redis
-Create a simple application as in this repository
-Include the following dependencies in pom.xml
-    <dependency>
-			'<groupId>'org.springframework.session</groupId>
-			<artifactId>spring-session-data-redis</artifactId>
-		</dependency>
-    <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
-		</dependency>
-Also specify the following in application.properties
-    spring.session.store-type=redis
+1. Create a simple application as in this repository
+2. Include the following dependencies in pom.xml
+![image](https://user-images.githubusercontent.com/77454499/115684477-04aed580-a375-11eb-9f08-e1a2cdd77435.png)
+
+3. Also specify the following in application.properties
+   <i> spring.session.store-type=redis
     spring.redis.host=localhost
-    spring.redis.port=6379
+    spring.redis.port=6379 </i>
 
 ### Testing
 The application would simply look like:
