@@ -5,10 +5,13 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.Set;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.exam.sad.Dao.ProductDao;
 import com.exam.sad.model.Product;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -25,14 +28,18 @@ public class FinalExamApplication {
 	//	pro1.setName("Product1");
 		
 		//GET
-				String jsonPowerPoint = get(1);
-				Product pro = mapper.readValue(jsonPowerPoint, Product.class);
-				pro.setName("Powerpoint1");
+				final Product p1;
+				//Set<Product> products=p1.getName();
+				
+				//String productName=prod
+				String Product = get(1);
+				Product pro = mapper.readValue(Product, Product.class);
+				pro.setName("Product1");
 						
 				//GET
 				String jsonPowerPoint2 = get(1);
 				Product pro2 = mapper.readValue(jsonPowerPoint2, Product.class);
-				pro2.setName("Powerpoint2");
+				pro2.setName("Product2");
 						
 				//PUT (the version will increment automatically)
 				update(convertObjToJSON(pro));
@@ -47,10 +54,10 @@ public class FinalExamApplication {
 				return sendRequest(request);
 			}
 			
-			private static void insert(String name, int price) 
+			private static void insert(int id, int stock) 
 					throws IOException, InterruptedException {
 				
-		        String json = makeJSON(name, price);
+		        String json = makeJSON(id, stock);
 		        
 		        HttpRequest request = HttpRequest.newBuilder()
 		        		.POST(HttpRequest.BodyPublishers.ofString(json)) //.POST accepts a BodyPublisher
@@ -77,11 +84,11 @@ public class FinalExamApplication {
 			}
 			
 			//User defined to make JSON file
-			private static String makeJSON(String name, int price) {
+			private static String makeJSON(int id, int stock) {
 				String json = new StringBuilder()
 		                .append("{")
-		                .append("\"name\":\"" + name + "\",")
-		                .append("\"price\":\"" + price + "\"")
+		                .append("\"Product\":\"" + id + "\",")
+		                .append("\"stock\":\"" + stock + "\"")
 		                .append("}").toString();
 				return json;
 			}
