@@ -9,7 +9,7 @@ ProductService is created to calculate the stock available based on orders made 
 ### Task 3: Optimistic and Pessimistic Locking
 I have worked out both using @Lock, @Query plus @Version. However, since my app is not running, I am unable to check whether it is working or not
 
-### Task 4: UnitTest
+### Task 4: UnitTest (Available at src/main/test)
 Two separate tests are written; But still error exists. Need to fix.
 1. Optimitic: OptimisticLockingTest.java
 2. Pessinmistic: ProductServicePessimisticLockingTest.java
